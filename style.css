@@ -1,0 +1,130 @@
+body{
+  background-image: url("cherry_blossoms.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: static;
+}
+
+#body_section{
+  width: 70%; 
+  height: 200vw;
+  background-size: contain;
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 0;
+  margin: 0 15%;
+}
+
+.question{
+  clear: both; 
+  padding: 50px;
+  margin: auto;
+  width: 50vw;
+  font-size: 2vw;
+  Font-family: "Forum";
+  position: relative;
+}
+
+.answer_text{
+  font-size: 1.5vw;
+  font-family: "Forum";
+  position: relative;
+}
+
+.prompt{
+  width: 100vw;
+  
+}
+
+
+#title{
+  text-align: center;
+  font-size: 5vw;
+  font-family: "Fredericka the Great";
+  font-weight: bold;
+  color: white;
+  /*margin: 5vw 4vw 0 4vw;
+  border: solid 0.3vw pink; */
+  padding: 10vw 0vw 10vw 5vw;
+  background-image: url("header_bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center top;
+
+}
+
+#q1{
+  padding-top: 2vw;
+}
+
+#get_results{
+  font-size: 4vw;  
+  margin: 0 auto;
+  font-family: "Fredericka the Great";
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#results{
+  display: none;
+  font-size: 3vw;
+  margin: 0 auto;
+  font-family: "Jost";
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+}
+
+#results_wrapper{
+  background-color: #ff8095;
+  padding: 2vw;
+  margin: 10vw 30vw;
+  clear: both; 
+  display: flex; 
+  align-items: center;
+}
+
+#get_results:hover {
+    text-decoration: underline;
+}
+
+
+/* HIDE RADIO */
+[type=radio] { 
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* IMAGE STYLES */
+[type=radio] + img {
+  cursor: pointer;
+  width: 20vw;
+  height: auto;
+  display:block;
+  padding: 5px;
+  margin: 5px;
+}
+
+/* CHECKED STYLES */
+[type=radio]:checked + img {
+  outline: 3px solid #2c1376;
+}
+
+.end_image{
+  margin: 0;
+  padding: 1 vw;
+  float: left;
+  height: 30vw;
+  width: auto;
+}
+
+#result_image{
+  display: none;
+  width: 70vw;
+  margin: 0 auto;
+  padding-bottom: 10vw;
+}

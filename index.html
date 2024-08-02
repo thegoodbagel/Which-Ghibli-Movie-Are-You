@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Which Ghibli Movie Are You?</title>
+    <link href="style.css" rel="stylesheet" type="text/css" /> <!--Connect to stylesheet-->
+    <!--Connect to JavaScript file--> 
+    <!--Note: Defer tells the browser to run the script *after* it downloads the full HTML document. Without it, you might get errors.-->
+    <script src="script.js" defer ></script> 
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Forum&family=Jost:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+  </head>
+  
+  <body>
+    
+    <header>
+    <h1 id = "title">Which Ghibli Movie Are You?</h1>
+      </header>
+  <section id = "body_section">
+    
+  <ol>
+    
+ <li class = "question" id = "q1">
+    <p class = "prompt"> Choose your mood flower. </p>
+
+  <form>
+
+  <div style = "float:left;">
+  <label for="q1a1" class = "answer_text">
+  <input type="radio" 
+    name = "q1"
+    value="Spirited"
+    id = "q1a1">
+    Japanese plum blossom 
+  <img src="/q1/plum-blossom.jpg" alt="image of Japanese plum blossoms" class = "image">
+         </label>
+    </div>
+    
+  <div style = "float:right;">
+  <label for="q1a2" class = "answer_text">
+  <input type="radio" 
+    name = "q1" 
+    value="Castle"
+    id = "q1a2">
+   California tree poppy
+  <img src="/q1/california-tree-poppy.jpg" alt="image of California Tree Poppy" class = "image">  </label>
+  </div>
+
+  <div style = "clear: both; float:left;">
+  <label for = "q1a3" class = "answer_text">
+  <input type="radio" 
+    name = "q1" 
+  value="Howl"
+    id = "q1a3">
+   Blue rose bush 
+  <img src="/q1/blue-rose-bush.jpg" alt="image of Blue Rose Bush" class = "image">   </label>
+  </div>
+
+  <div style = "float:right;">
+  <label for = "q1a4" class = "answer_text">
+  <input type="radio" 
+    name = "q1" 
+    value="Mononoke"
+    id = "q1a4">
+   Red poppy 
+  <img src="/q1/red-poppy.jpg" alt="image of Red Poppy" class = "image"> </label>
+  </div>
+  
+  </form>
+
+</li>
+<div class = "break">
+      
+    </div>
+
+  <li class = "question">
+    <p class = "prompt">
+      Choose your dream destination.
+    </p>
+    
+    <form>
+
+    <div style = "float:left;">
+  <label for="q2a1" class = "answer_text">
+  <input type="radio" 
+    name = "q2" 
+    value="Ponyo"
+    id = "q2a1">
+     In a psychedelic underwater realm
+  <img src="/q2/moon-jellyfish.jpg" alt="image of moon jellyfish" class = "image">
+  </label>
+    </div>
+    
+    <div style = "float:right;">
+  <label for = "q2a2" class = "answer_text">
+  <input type="radio" 
+    name = "q2"  
+    value="Mononoke"
+    id = "q2a2">
+  In a mystical forest filled with secrets 
+  <img src="/q2/forest.jpg" alt="image of forest" class = "image"">
+  </label>
+  </div>
+
+  <div style = "clear: both; float:left;">
+  <label for="q2a3" class = "answer_text"> 
+<input type="radio" 
+    name = "q2"  
+  value="Castle"
+    id = "q2a3">
+  On a floating island
+  <img src="/q2/floating-island.jpg" alt="image of a floating island" class = "image">  
+  </label>
+  </div>
+
+  <div style = "float:right;">
+  <label for="q2a4" class = "answer_text">
+  <input type="radio" 
+    name = "q2"  
+    value="Spirited"
+    id = "q2a4">
+   In a luxuroius bathhouse for spirits 
+  <img src="/q2/bathhouse.jpg" alt="image of fancy bathhouse" class = "image">
+  </label>
+  </div>
+
+  </form>
+  </li>
+
+     <div class = "break">
+      
+    </div>
+
+    <li class = "question">
+      <p class = "prompt">
+      Choose your method of transportation.   
+      </p>
+
+  <form>
+
+    <div style = "float:left;">
+  <label for="q3a1" class = "answer_text">
+  <input type="radio" 
+    name = "q3"  
+    value="Howl"
+    id = "q3a1">
+   Via a giant mechanical monster, of course.
+  <img src="/q3/howls-moving-castle.jpg" alt="image of huge moving castle" class = "image">
+  </label>
+    </div>
+    
+    <div style = "float:right;">
+  <label for="q3a2" class = "answer_text"> 
+  <input type="radio" 
+    name = "q3"   
+    value="Spirited"
+    id = "q3a2">
+   In a train, gliding over tranquil waters. 
+  <img src="/q3/train.jpg" alt="image of train at a standstill in water with the pink clouds reflected onto the still, open water"class = "image"">
+  </label>
+  </div>
+
+  <div style = "clear: both; float:left;">
+ <label for = "q3a3" class = "answer_text">
+<input type="radio" 
+    name = "q3"   
+  value="Mononoke"
+    id = "q3a3">
+   On the back of the savage wolf god 
+  <img src="/q3/laugh-mononoke.gif" alt="image of wolf god laughing" class = "image">  
+  </label>
+  </div>
+
+  <div style = "float:right;">
+  <label for="q3a4" class = "answer_text">
+  <input type="radio" 
+    name = "q3"   
+    value="Castle"
+    id = "q3a4">
+   In a magical, Mosasaurus submarine 
+  <img src="/q3/submarine.jpg" alt="image of a submarine" class = "image">
+  </label>
+  </div>
+  
+  </form>
+
+</li>
+
+<div class = "break">
+      
+    </div>
+
+
+<li class = "question" id = "q4">
+  <p class = "prompt">
+      Choose your inner energy type.
+  </p>
+
+  <form>
+
+    <div style = "float:left;">
+  <label for="q4a1" class = "answer_text"> 
+  <input type="radio" 
+    name = "q4"   
+    value="Castle"
+    id = "q4a1">
+    Transcendant 
+  <img src="/q4/floating-girl.jpg" alt="image of a floating girl with a glowing necklace" class = "image">
+  </label>
+    </div>
+    
+    <div style = "float:right;">
+  <label for="q4a2" class = "answer_text">
+  <input type="radio" 
+    name = "q4"   
+    value="Ponyo"
+    id = "q4a2">
+   Gremlin 
+  <img src="/q4/gremlin.jpg" alt="image of a cute little girl racing over crashing waves"class = "image"">
+  </label>
+  </div>
+
+  <div style = "clear: both; float:left;">
+ <label for="q4a3" class = "answer_text">
+ <input type="radio" 
+    name = "q4"   
+  value="Howl"
+    id = "q4a3">
+   Hot 
+  <img src="/q4/howl.jpg" alt="image of howl pendragon, a hot blond wizard" class = "image">
+   </label>
+  </div>
+
+  <div style = "float:right;">
+  <label for="q4a4" class = "answer_text"> 
+  <input type="radio" 
+    name = "q4"   
+    value="Mononoke"
+    id = "q4a4">
+  Cold 
+  <img src="/q4/eboshi.jpg" alt="image of Lady Eboshi standing regally with a gun, ready to kill the forest spirits" class = "image"">
+  </label>
+  </div>
+  
+  </form>
+  
+
+</li>
+</ol> 
+   </section> 
+  <div id = "results_wrapper">
+    <button id = "get_results"> Get My Results! </button>
+    
+    <p id = "results"> </p>
+  </div>
+  <div id = "result_image">
+    </div>
+    
+    
+  </body>
+</html>
+
