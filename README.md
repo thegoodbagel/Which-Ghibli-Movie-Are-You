@@ -1,9 +1,8 @@
-# Whic Ghibli Movie Are You
-Given that Hayao Miyazaki's films are all amazing, it's hard to pick a favorite. This website does that for you. < br / >
-Take a stroll through the cherry blossoms as you ponder your personality traits, energy type, and dreams. < br / >
+# Which Ghibli Movie Are You?
+Given that Hayao Miyazaki's films are all amazing, it's hard to pick a favorite. This website does that for you. <br /> <br />
+Take a stroll through the cherry blossoms as you ponder your personality traits, energy type, and dreams. <br /> <br />
 ![Screenshot of a webpage titled "Which Ghibli Movie Are You?" and cherry blossoms in the background, 
-along with a question that asks "1. Choose Your Mood Flower," followed by four selection choices](https://i.imgur.com/AvARKNw.png) < br / >
-At the end of your journey, click "Get My Results!" and film posters of your select movies will show up. < br / >
-![Screenshot of a webpage with a pink button on top titled "Your Movies Are: Spirited Away, Ponyo", 
-followed by two corresponding film posters] (https://i.imgur.com/FCv8Ecs.png)
-
+along with a question that asks "1. Choose Your Mood Flower," followed by four selection choices](https://i.imgur.com/AvARKNw.png) <br /> <br />
+At the end of your journey, click "Get My Results!" and film posters of your select movies will show up. <br /> <br />
+![Screenshot of a webpage with a pink button on top titled "Your Movies Are: Spirited Away, Ponyo," 
+followed by two corresponding film posters](https://i.imgur.com/FCv8Ecs.png)
